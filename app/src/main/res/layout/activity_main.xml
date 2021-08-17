@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/översikt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context=".MainActivity">
+
+ <!-- Bar template -->
+
+ <ImageView
+     android:id="@+id/bar_templat"
+     android:layout_width="0dp"
+     android:layout_height="106.79dp"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:background="@color/cardview_dark_background"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     tools:ignore="MissingConstraints" />
+
+ <ImageView
+     android:id="@+id/imageView18"
+     android:layout_width="70dp"
+     android:layout_height="65dp"
+     android:layout_marginStart="12dp"
+     android:layout_marginTop="20dp"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     tools:srcCompat="@tools:sample/avatars" />
+
+ <EditText
+     android:id="@+id/editTextTextPersonName2"
+     android:layout_width="222dp"
+     android:layout_height="47dp"
+     android:layout_marginTop="19dp"
+     android:ems="10"
+     android:inputType="textPersonName"
+     android:text="översikt senaste månaden"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/bar_templat" />
+
+ <ImageView
+     android:id="@+id/graph"
+     android:layout_width="262dp"
+     android:layout_height="338dp"
+     android:layout_marginTop="92dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.496"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:srcCompat="@drawable/Graph" />
+
+ <EditText
+     android:id="@+id/editTextTextPersonName3"
+     android:layout_width="80dp"
+     android:layout_height="80dp"
+     android:layout_marginTop="50dp"
+     android:ems="10"
+     android:inputType="textPersonName"
+     android:text="Nyheter"
+     android:textSize="20sp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent" />
+
+ <ImageView
+     android:id="@+id/imageView6"
+     android:layout_width="100dp"
+     android:layout_height="110dp"
+     android:layout_marginEnd="44dp"
+     android:layout_marginBottom="56dp"
+     app:layout_constraintBottom_toTopOf="@+id/imageView15"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toEndOf="@+id/imageView7"
+     app:srcCompat="@android:color/holo_green_light" />
+
+ <ImageView
+     android:id="@+id/imageView7"
+     android:layout_width="105dp"
+     android:layout_height="169dp"
+     android:layout_marginBottom="24dp"
+     app:layout_constraintBottom_toTopOf="@+id/imageView14"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:srcCompat="@color/purple_500" />
+
+ <ImageView
+     android:id="@+id/imageView10"
+     android:layout_width="100p"
+     android:layout_height="166dp"
+     android:layout_marginStart="36dp"
+     android:layout_marginBottom="27dp"
+     app:layout_constraintBottom_toTopOf="@+id/imageView17"
+     app:layout_constraintStart_toStartOf="parent"
+     app:srcCompat="@drawable/ic_launcher_background" />
+
+ <ImageView
+     android:id="@+id/imageView14"
+     android:layout_width="54dp"
+     android:layout_height="57dp"
+     android:layout_marginBottom="84dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:srcCompat="@android:drawable/radiobutton_on_background" />
+
+ <ImageView
+     android:id="@+id/imageView15"
+     android:layout_width="54"
+     android:layout_height="57dp"
+     android:layout_marginEnd="115dp"
+     android:layout_marginBottom="84dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toEndOf="@+id/imageView14"
+     app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+ <ImageView
+     android:id="@+id/imageView17"
+     android:layout_width="54"
+     android:layout_height="57"
+     android:layout_marginEnd="120dp"
+     android:layout_marginBottom="84dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.525"
+     app:layout_constraintStart_toStartOf="parent"
+     app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+ <TextView
+     android:id="@+id/textView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="25dp"
+     android:text="Poäng denna månad"
+     android:textColor="@color/white"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+ <ImageView
+     android:id="@+id/imageView23"
+     android:layout_width="79dp"
+     android:layout_height="69dp"
+     android:layout_marginTop="16dp"
+     android:layout_marginEnd="16dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:srcCompat="#FF0000" />
+
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="61dp"
+     android:layout_height="50dp"
+     android:layout_marginTop="20dp"
+     android:layout_marginEnd="16dp"
+     android:text="H"
+     android:textSize="50"
+     android:textStyle="italic"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Rectangle 106 -->
+<View
+android:id="@+id/rectangle_1"
+android:layout_width="334dp"
+android:layout_height="182dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:background="@drawable/rectangle_1"
+    />
+
+    <!-- drawable/rectangle_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="334dp"
+android:height="182dp"
+android:viewportWidth="334"
+android:viewportHeight="182"
+    >
+
+<group>
+
+ <clip-path
+     android:pathData="M40 0H294C316.091 0 334 17.9086 334 40V142C334 164.091 316.091 182 294 182H40C17.9086 182 0 164.091 0 142V40C0 17.9086 17.9086 0 40 0Z"
+     />
+
+ <path
+     android:pathData="M0 0V182H334V0"
+     android:fillColor="#2C2C2C"
+     />
+
+ <path
+     android:pathData="M40 0H294C316.091 0 334 17.9086 334 40V142C334 164.091 316.091 182 294 182H40C17.9086 182 0 164.091 0 142V40C0 17.9086 17.9086 0 40 0Z"
+     android:strokeWidth="6"
+     android:strokeColor="#000000"
+     />
+
+</group>
+
+</vector>
+
+
+
+    <!-- Vector 19 -->
+<View
+android:id="@+id/vector_19"
+android:layout_width="260dp"
+android:layout_height="117dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:background="@drawable/vector_19"
+    />
+
+
+    <!-- drawable/vector_19.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="263dp"
+android:height="120dp"
+android:viewportWidth="263"
+android:viewportHeight="120"
+    >
+
+<group>
+
+ <clip-path
+     android:pathData="M1.5 1.5H261.5V118.5H1.5V1.5Z"
+     />
+
+</group>
+
+<path
+    android:pathData="M1.5 1.5H261.5V118.5H1.5V1.5Z"
+    android:strokeWidth="3"
+    android:strokeCap="round"
+    android:strokeColor="#F10606"
+    />
+
+</vector>
+
+
+
+    <!-- översikt senaste månaden -->
+<TextView
+android:id="@+id/versikt_sen"
+android:layout_width="215.05dp"
+android:layout_height="33.65dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:text="@string/versikt_sen"
+android:textAppearance="@style/versikt_sen"
+android:gravity="center_horizontal|top"
+    />
+
+    <!--
+      Font family: Lato
+      Line height: 24sp
+    -->
+    <!-- styles.xml -->
+<style name="versikt_sen">
+
+<item name="android:textSize">
+ 20sp
+</item>
+
+<item name="android:textColor">
+ #000000
+</item>
+
+</style>
+
+
+    <!-- strings.xml -->
+<string name="versikt_sen">
+
+\u00C3\u00B6versikt senaste m\u00C3\u00A5naden
+</string>
+
+
+
+
+    <!-- Plus symbol -->
+<View
+android:id="@+id/plus_symbol"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="#00000000"
+    />
+
+
+
+
+    <!-- poäng denna månad -->
+<TextView
+android:id="@+id/po_ng_denna"
+android:layout_width="146dp"
+android:layout_height="53dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:text="@string/po_ng_denna"
+android:textAppearance="@style/po_ng_denna"
+android:gravity="center_horizontal|top"
+    />
+
+    <!--
+      Font family: Lato
+      Line height: 24sp
+    -->
+    <!-- styles.xml -->
+<style name="po_ng_denna">
+
+<item name="android:textSize">
+ 20sp
+</item>
+
+<item name="android:textColor">
+ #000000
+</item>
+
+</style>
+
+
+    <!-- strings.xml -->
+<string name="po_ng_denna">
+
+po\u00C3\u00A4ng denna m\u00C3\u00A5nad
+</string>
+
+
+
+
+    <!-- Slide icons -->
+<View
+android:id="@+id/slide_icons"
+android:layout_width="93.63dp"
+android:layout_height="24.12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="160.19dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="610.07dp"
+android:background="#00000000"
+    />
+
+
+
+
+    <!-- slides songs -->
+<View
+android:id="@+id/slides_song"
+android:layout_width="307.21dp"
+android:layout_height="171.66dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="53.4dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="422.81dp"
+android:background="#00000000"
+    />
+
+
+
+
+    <!-- Nyheter -->
+<TextView
+android:id="@+id/nyheter"
+android:layout_width="91dp"
+android:layout_height="21dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:text="@string/nyheter"
+android:textAppearance="@style/nyheter"
+android:gravity="center_horizontal|top"
+    />
+
+    <!--
+      Font family: Lato
+      Line height: 30sp
+    -->
+    <!-- styles.xml -->
+<style name="nyheter">
+
+<item name="android:textSize">
+ 25sp
+</item>
+
+<item name="android:textColor">
+ #000000
+</item>
+
+</style>
+
+
+    <!-- strings.xml -->
+<string name="nyheter">
+
+Nyheter\n
+</string>
+
+
+
+
+    <!-- Top bar preset -->
+<View
+android:id="@+id/top_bar_pre"
+android:layout_width="414.38dp"
+android:layout_height="87dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:background="#00000000"
+    />
+
+
+
+
+
+
+
+
