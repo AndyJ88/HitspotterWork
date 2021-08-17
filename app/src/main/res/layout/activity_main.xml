@@ -72,12 +72,13 @@
 
  <ImageView
      android:id="@+id/imageView6"
-     android:layout_width="100dp"
-     android:layout_height="110dp"
+     android:layout_width="104dp"
+     android:layout_height="106dp"
      android:layout_marginEnd="44dp"
-     android:layout_marginBottom="56dp"
+     android:layout_marginBottom="52dp"
      app:layout_constraintBottom_toTopOf="@+id/imageView15"
      app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
      app:layout_constraintStart_toEndOf="@+id/imageView7"
      app:srcCompat="@android:color/holo_green_light" />
 
@@ -93,10 +94,10 @@
 
  <ImageView
      android:id="@+id/imageView10"
-     android:layout_width="100p"
+     android:layout_width="100dp"
      android:layout_height="166dp"
-     android:layout_marginStart="36dp"
-     android:layout_marginBottom="27dp"
+     android:layout_marginStart="44dp"
+     android:layout_marginBottom="24dp"
      app:layout_constraintBottom_toTopOf="@+id/imageView17"
      app:layout_constraintStart_toStartOf="parent"
      app:srcCompat="@drawable/ic_launcher_background" />
@@ -113,7 +114,7 @@
 
  <ImageView
      android:id="@+id/imageView15"
-     android:layout_width="54"
+     android:layout_width="54dp"
      android:layout_height="57dp"
      android:layout_marginEnd="115dp"
      android:layout_marginBottom="84dp"
@@ -124,8 +125,8 @@
 
  <ImageView
      android:id="@+id/imageView17"
-     android:layout_width="54"
-     android:layout_height="57"
+     android:layout_width="54dp"
+     android:layout_height="57dp"
      android:layout_marginEnd="120dp"
      android:layout_marginBottom="84dp"
      app:layout_constraintBottom_toBottomOf="parent"
@@ -162,10 +163,69 @@
      android:layout_marginTop="20dp"
      android:layout_marginEnd="16dp"
      android:text="H"
-     android:textSize="50"
+     android:textSize="50dp"
      android:textStyle="italic"
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintTop_toTopOf="parent" />
+
+ <androidx.appcompat.widget.Toolbar
+     android:id="@+id/toolbar"
+     android:layout_width="391dp"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="4dp"
+     android:background="@color/black"
+     android:minHeight="?attr/actionBarSize"
+     android:theme="?attr/actionBarTheme"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent" />
+
+ <ImageView
+     android:id="@+id/imageView25"
+     android:layout_width="37dp"
+     android:layout_height="38dp"
+     android:layout_marginBottom="12dp"
+     app:layout_constraintBottom_toTopOf="@+id/toolbar"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.5"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/toolbar"
+     app:srcCompat="@android:drawable/gallery_thumb" />
+
+ <ImageView
+     android:id="@+id/imageView26"
+     android:layout_width="53dp"
+     android:layout_height="54dp"
+     android:layout_marginEnd="50dp"
+     android:layout_marginBottom="4dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toStartOf="@+id/imageView27"
+     app:layout_constraintHorizontal_bias="0.924"
+     app:layout_constraintStart_toEndOf="@+id/imageView25"
+     app:srcCompat="@android:drawable/arrow_up_float" />
+
+ <ImageView
+     android:id="@+id/imageView27"
+     android:layout_width="55dp"
+     android:layout_height="52dp"
+     android:layout_marginBottom="4dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="@+id/toolbar"
+     app:layout_constraintHorizontal_bias="0.588"
+     app:layout_constraintStart_toEndOf="@+id/imageView25"
+     app:srcCompat="@android:drawable/ic_menu_search" />
+
+ <ImageView
+     android:id="@+id/imageView28"
+     android:layout_width="55dp"
+     android:layout_height="49dp"
+     android:layout_marginBottom="4dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toStartOf="@+id/imageView26"
+     app:layout_constraintHorizontal_bias="0.672"
+     app:layout_constraintStart_toStartOf="@+id/toolbar"
+     app:srcCompat="@android:drawable/gallery_thumb" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hitspotter">
+        <activity android:name=".Hitspotter19"></activity>
+        <activity android:name=".Hitspotter18" />
+        <activity android:name=".hitspotter17" />
+        <activity android:name=".HItspotter16" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
